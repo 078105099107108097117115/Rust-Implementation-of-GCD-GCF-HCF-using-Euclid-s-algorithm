@@ -39,7 +39,7 @@ fn main() {
             Err(_) => continue,
         };
         let output = gcd(first_input,second_input);
-        println!("{}",output);
+        println!("GCD/GCF/HCF Value == {}.",output);
         break;
     }
 }
